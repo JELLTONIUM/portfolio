@@ -1,0 +1,115 @@
+/*turns grey*/
+.button1 {
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
+}
+
+.button1:hover {
+  background-color: #667184;
+  color: #fff;
+}
+
+
+.button2 {
+  transition-property: height;
+  transition-duration: 0.7s;
+}
+
+.button2:hover {
+  height: 75px;
+}
+
+/*colors the words to black*/
+.colorcard {
+  color: black;
+}
+
+/*increases size and changes color*/
+.cardstyle1 {
+  margin:20px;
+  padding:0px;
+  transition-property: border-color,width,margin,padding,background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.cardstyle1:hover {
+  margin:10px;
+  padding:10px;
+  border-color: green;
+  background-color: rgb(230,255,230);
+}
+
+/*Link animation come in from right*/
+.link1 {
+  visibility: hidden;
+  position: relative;
+  animation-name: link1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+
+@keyframes link1 {
+  0% {left: -1000px;}
+  100% {left: 0px;visibility: visible;}
+}
+
+.link2 {
+  visibility: hidden;
+  position: relative;
+  animation-name: link2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.75s;
+}
+
+@keyframes link2 {
+  0% {left: -1000px;}
+  100% {left: 0px;visibility: visible;}
+}
+
+.link3 {
+  visibility: hidden;
+  position: relative;
+  animation-name: link3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes link3 {
+  0% {left: -1000px;}
+  100% {left: 0px;visibility: visible;}
+}
+
+.link4 {
+  visibility: hidden;
+  position: relative;
+  animation-name: link4;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.25s;
+}
+
+@keyframes link4 {
+  0% {left: -1000px;}
+  100% {left: 0px;visibility: visible;}
+}
+
+.link5 {
+  visibility: hidden;
+  position: relative;
+  animation-name: link5;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes link5 {
+  0% {left: -1000px;}
+  100% {left: 0px;visibility: visible;}
+}

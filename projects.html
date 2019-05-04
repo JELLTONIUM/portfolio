@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="bootstrap-4.1.2-dist/bootstrap-4.1.2-dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="myfile.css" type="text/css" rel="stylesheet">
     </head>
     <body>
 <!--navigation bar-->
         <div class="nav justify-content-center">
             <nav class="nav nav-pills nav-fill">
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="Ng_AboutMe.html" class="nav-link">About Me</a>
-                <a href="resume.html" class="nav-link">Resume</a>
-                <a href="projects.html" class="nav-link active">Projects</a>
-                <a href="contact_me.html" class="nav-link">Contact Me</a>
+                <a href="index.html" class="link1 button1 nav-link">Home</a>
+                <a href="Ng_AboutMe.html" class="link2 button1 nav-link">About Me</a>
+                <a href="resume.html" class="link3 button1 nav-link">Resume</a>
+                <a href="projects.html" class="link4 nav-link active">Projects</a>
+                <a href="contact_me.html" class="link5 button1 nav-link">Contact Me</a>
             </nav>
         </div>
 <!--Title-->
@@ -37,18 +38,50 @@
                     and to prevent the sprite from going airborn when space is repeatedly
                     pressed, the jumping would only work if the sprite was touching the 
                     ground and space was pressed.
-                    <br><a target="blank" href="https://docs.google.com/document/d/1CXDCMnSiEqO-Jm1_CPDJC9V-TMojOuJGzX-bI5_1Xh8/edit?usp=sharing">Documentation</a></p>
+                    <br><a target="_blank" href="https://docs.google.com/document/d/1CXDCMnSiEqO-Jm1_CPDJC9V-TMojOuJGzX-bI5_1Xh8/edit?usp=sharing">Documentation</a></p>
                 </div>
-            <img class="col-sm-3 img-thumbnail align-self-start" src="Images/scratchblocks.jpg" alt="Scratch's blocks">
+                <div class="col-sm-3 img-thumbnail align-self-start">
+                    <img height="150" width="150" src="Images/scratchblocks.jpg" alt="Scratch's blocks">
+                </div>
+            <div class="col-sm-2"></div>
+        </div>
+                <div class="container d-flex justify-content-between">
+            <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <h2>Image Artist Project</h2>
+                    <p>2/25/19 - 3/28/2019<br></p>
+                    <p>In this project, we were tasked to create any type of photoshop
+                    function using python with a partner. My partner was Anurag
+                    and our first idea was just to add a border because it was in 
+                    instructions. After we got it working, we didn't know what else
+                    to do but we wanted to do something out of the ordinary. So the
+                    final plan was to write code that could mark out the edges of 
+                    objects. The first set of code we wrote adds up the first 3 
+                    values, then compares it with the pixles around it because 
+                    usually, the item would be colored differently than its's 
+                    background. This worked well but for some darker or brighter
+                    images, the differences in color are very small so a set number
+                    that is used to compare all the pixals is inefficent. We then
+                    added a function that would find the average color of the 
+                    image that it then will use to compare, this worked much better
+                    than the ove before.
+                    <br><a target="_blank" href="https://docs.google.com/document/d/1obrqZFA3AXlleFucuNsOBLZ1QtKzTtQ8QWKld5a5ls0/edit?usp=sharing">Documentation</a></p>
+                </div>
+            <div class="col-sm-3 img-thumbnail align-self-start">
+                <img width="150" height="150" src="Images/basketball1.png" alt="Scratch's blocks">
+                <img width="150" height="150" src="Images/basketball2.png" alt="Scratch's blocks">
+            </div>
             <div class="col-sm-2"></div>
         </div>
 <!--footer-->
         <footer class="jumbotron">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-around">
                 <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcS
                 HwCqSCzPDghjBbRskZmnHfwzkgGcPJStfsWGmPxrtFllrBgZdnTCXmFBXxVJRGFK
-                DKfQrS"><img src="Images/mail.png" alt="mail icon"></a>
-                <a href="https://www.dublin.k12.ca.us/dhs"><img src="Images/school.jpg" alt="DHS icon"></a>
+                DKfQrS"><img class="button2" src="Images/gmail_icon.png" alt="gmail_icon" height="50"></a>
+                <a target="_blank" href="https://www.dublin.k12.ca.us/dhs"><img class="button2" 
+                src="Images/dublin_high_school_logo.png" height="50" alt="Dublin_high_school_icon"></a>
+                <a target="_blank" href=""><img class="button2" src="Images/discord_icon.png" alt="discord_icon" height="50"></a>
             </div>
         </footer>
     </body>
