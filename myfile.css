@@ -29,8 +29,7 @@
   margin:20px;
   padding:0px;
   transition-property: border-color,width,margin,padding,background-color;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
 }
 .cardstyle1:hover {
   margin:10px;
